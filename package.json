@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.0.0",
+    "@discordjs/voice": "^0.14.0",
+    "@replit/database": "^2.0.2",
+    "better-sqlite3": "^11.8.1",
+    "chalk": "^5.2.0",
+    "discord-modals": "^1.3.9",
+    "discord.js": "^14.14.1",
+    "embedbuilder": "^1.2.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.2",
+    "lodash.uniqwith": "^4.5.0",
+    "moment": "^2.29.4",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.10.5",
+    "ms": "^2.1.3",
+    "nrc.db": "^2.1.0",
+    "quick.db": "^9.1.7"
+  },
+  "name": "atay",
+  "description": "Proje discord.js v14 üzerine yazılmıştır. **Gerekli olan minimum nodejs versiyonu v16.9** Örnek kullanım [src/commands/ping.js](https://github.com/memte/v14-slash-command-handler/blob/main/src/commands/ping.js) dosyasında verilmiştir.\r Destek olmak isterseniz projeye star verebilirsiniz.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
